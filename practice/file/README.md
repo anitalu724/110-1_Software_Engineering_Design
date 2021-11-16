@@ -2,4 +2,4 @@
 
 ## A file is an ordinary file or a directory file. (Generalization)
 
-![](https://github.com/anitalu724/110-1_Software_Engineering_Design/blob/main/practice/file/file.png)
+![](https://github.com/anitalu724/110-1_Software_Engineering_Design/blob/main/practice/file/file.jpg)
