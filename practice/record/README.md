@@ -1,6 +1,6 @@
 # 110-1 Software Engineering Design PPT4-1 p68-4
 
-## Files contain records
+## Files contain records (Composition)
 
 ![](https://github.com/anitalu724/110-1_Software_Engineering_Design/blob/main/practice/record/record.jpg)
 
