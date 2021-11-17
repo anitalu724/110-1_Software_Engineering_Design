@@ -2,7 +2,7 @@
 
 ## Files contain records (Composition)
 
-![](https://github.com/anitalu724/110-1_Software_Engineering_Design/blob/main/practice/record/record.jpg)
+![](https://github.com/anitalu724/110-1_Software_Engineering_Design/blob/main/practice/record/record1.jpg)
 
 
 * Implement
