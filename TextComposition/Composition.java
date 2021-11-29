@@ -11,8 +11,13 @@ public class Composition{
     public void changeSize(int cID, int newSize){
         for (Component c : components){
             if (c.getId() == cID){
-                c.setNaturalSize(newSize);
-                System.out.println("component "+cID+" size changed to "+ newSize);
+                if (newSize < c.getShrinkability() | c.getStretchablity() < newSize){
+                    System.out.println("component "+cID+" failed to change size");
+                } 
+                else {
+                    c.setNaturalSize(newSize);
+                    System.out.println("component "+cID+" size changed to "+ newSize);
+                }
                 return;
             } 
         }

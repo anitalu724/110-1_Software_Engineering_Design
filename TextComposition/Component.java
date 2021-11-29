@@ -4,7 +4,7 @@ public class Component{
     private int stretchablity;
     private int shrinkability;
     private String content;
-    public Component(int iId, int iNaturalSize, int iStretchablity, int iShrinkability, String iContent){
+    public Component(int iId, int iNaturalSize, int iShrinkability, int iStretchablity, String iContent){
         this.id = iId;
         this.naturalSize = iNaturalSize;
         this.stretchablity = iStretchablity;
@@ -29,13 +29,13 @@ public class Component{
 }
 
 class Text extends Component{
-    public Text(int iId, int iNaturalSize, int iStretchablity, int iShrinkability, String iContent){
-        super(iId, iNaturalSize, iStretchablity, iShrinkability, iContent);
+    public Text(int iId, int iNaturalSize, int iShrinkability, int iStretchablity, String iContent){
+        super(iId, iNaturalSize, iShrinkability, iStretchablity, iContent);
     }
 }
 
 class GraphicalEmt extends Component{
-    public GraphicalEmt(int iId, int iNaturalSize, int iStretchablity, int iShrinkability, String iContent){
-        super(iId, iNaturalSize, iStretchablity, iShrinkability, iContent);
+    public GraphicalEmt(int iId, int iNaturalSize, int iShrinkability, int iStretchablity,  String iContent){
+        super(iId, iNaturalSize, iShrinkability, iStretchablity, iContent);
     }
 }
